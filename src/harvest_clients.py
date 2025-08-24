@@ -19,6 +19,7 @@ def get_harvest_clients(bearer_token, account_id):
         print(f"Erro {response.status_code}: {response.text}")
         return None
 
+
 if __name__ == "__main__":
     bearer_token = input("Digite o Bearer token: ")
     account_id = input("Digite o Harvest Account ID: ")
